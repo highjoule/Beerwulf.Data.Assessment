@@ -1,5 +1,7 @@
 # Dear Breno and Burak
 
+In the folder answers you will find the notebook code and the tables used.
+
 This is the code that will answer the question on the assignment. There is a particular flaw that I could not solve and I would like to tell you how to overcome this if you are running this code:
 
 In a part in this code I load the table files, locally stored, in the SQL server. If at some point the code does not run, please load again the cell where LINEITEM is, and the ones under it. I hope this can let you see the results fully.
@@ -110,19 +112,7 @@ l_df0
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -419,19 +409,7 @@ l_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -752,19 +730,8 @@ c_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -952,7 +919,7 @@ print(bars)
 ```
 
 
-![png](output_32_0.png)
+![](https://github.com/highjoule/Beerwulf.Data.Assessment/blob/main/answers/md/class_customer.png)
 
 
     [2438817.05, 4314693.49, -71644.95]
@@ -977,19 +944,7 @@ c_df_ver
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1580,19 +1535,7 @@ top_customer(q1,pw,db,concept)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1628,19 +1571,7 @@ top_customer(q1,pw,db,concept)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1736,19 +1667,7 @@ bottom_nations
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1790,19 +1709,7 @@ top_nations
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1863,19 +1770,7 @@ top_custmode
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1977,19 +1872,7 @@ top_months[['revenue','year','month']]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2192,19 +2075,7 @@ df_year_fiscal
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2268,7 +2139,7 @@ ax = df_year_fiscal.plot.bar(x='year')
 ```
 
 
-![png](output_120_0.png)
+![](https://github.com/highjoule/Beerwulf.Data.Assessment/blob/main/answers/md/fiscal_year.png)
 
 
 # Star schema (Answer to Question 2)
@@ -2285,7 +2156,7 @@ plt.show()
 ```
 
 
-![png](output_122_0.png)
+![](https://github.com/highjoule/Beerwulf.Data.Assessment/blob/main/answers/md/start_schema.png)
 
 
 # Considering Microsoft Azure, how to run this process multiple times a day (Answer to question 3)
