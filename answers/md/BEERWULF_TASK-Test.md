@@ -1809,7 +1809,7 @@ top_custmode
 
 
 
-## Calculation of top months and foscal year revenue
+## Calculation of top months and fiscal year revenue
 
 
 ```python
