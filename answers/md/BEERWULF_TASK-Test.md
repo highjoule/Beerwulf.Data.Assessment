@@ -397,7 +397,7 @@ l_df0['ID'] = [i+1 for i in range(l_df0.index.size)]
 l_df0.to_csv('lineitem2.tbl', header=None, index=None, sep='|', line_terminator='|\n')
 ```
 
-### Read the table again just to make sure that the infromation was correctly saved. The columns migth not match with the intended data, but luckily for SQL this is irrelevant at this moment.
+### Reading of the table again just to make sure that the infromation was correctly saved. The columns migth not match with the intended data, but luckily for SQL this is irrelevant at this moment.
 
 
 ```python
@@ -689,7 +689,7 @@ def debt_class(c_df):
     clas = ['top 20% debt','current debt','positive balance','not a number in balance']#categories
     
     
-    dim = range(0,c_df.index.size)#size where the for will make a loop
+    dim = range(0,c_df.index.size)#size of the loop
     neg_range = []#range of the positive numbers in the balance
     
     for i in dim:
@@ -711,7 +711,7 @@ def debt_class(c_df):
     return(c_df.sort_index())#return back the modified dataframe using the original indexing
 ```
 
-## Validation that the operations where made
+## Validation that the operations were made
 
 
 ```python
@@ -2156,7 +2156,7 @@ plt.show()
 ```
 
 
-![](https://github.com/highjoule/Beerwulf.Data.Assessment/blob/main/answers/md/start_schema.png)
+![](https://github.com/highjoule/Beerwulf.Data.Assessment/blob/main/answers/md/star_schema.png)
 
 
 # Considering Microsoft Azure, how to run this process multiple times a day (Answer to question 3)
